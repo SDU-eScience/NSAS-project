@@ -1,0 +1,4 @@
+{
+  "plugins": ["transform-object-rest-spread", "transform-do-expressions"],
+  "presets": ["env", "react"]
+}

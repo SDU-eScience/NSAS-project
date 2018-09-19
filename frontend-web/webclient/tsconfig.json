@@ -1,0 +1,17 @@
+/**
+ * (c) 2018 SDU eScienceCenter
+ * All rights reserved
+ */
+ 
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": false,
+        "module": "es6",
+        "target": "es6",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "sourceMap": true
+    }
+}

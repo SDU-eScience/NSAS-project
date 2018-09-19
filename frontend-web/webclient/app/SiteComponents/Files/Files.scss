@@ -1,0 +1,93 @@
+@media (min-width: 992px) {
+    .file-data {
+        visibility: hidden;
+    }
+}
+
+tr:hover .file-data {
+    visibility: visible;
+}
+
+th:hover .file-data {
+    visibility: visible;
+}
+
+@media (max-width: 767px) {
+    .table-responsive .dropdown-menu {
+        position: static !important;
+    }
+}
+@media (min-width: 768px) {
+    .table-responsive {
+        overflow: visible;
+    }
+}
+
+table.ui.unstackable.very.basic.padded.table thead tr th.filename-row {
+    padding-left: 18px;
+}
+
+.checkbox-margin {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.checkbox-margin label {
+    margin-top: 4px;
+}
+
+.create-folder-placement {
+    padding-right: 8px;
+    vertical-align: middle;
+    color: #448aff;
+}
+
+.pointer-cursor {
+    cursor: pointer;
+}
+
+.black-text {
+    color: #000;
+}
+
+.searchbar {
+    margin: 20px 0 20px 0;
+}
+
+.favorite-padding {
+    padding: 7px;
+}
+
+.table-row-padding {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.create-folder {
+    padding-right: 8px;
+    padding-left: 56px;
+}
+
+.create-folder-input {
+    padding-left: 22px;
+}
+
+.hidden-checkbox:checked {
+    visibility: visible;
+}
+
+table.ui.very.basic.padded.table tbody tr.file-row td.table-cell-padding-left {
+    padding-left: 18px;
+}
+
+.ui.fluid.button.context-button-margin {
+    margin: 5px 0px 5px 0px
+}
+
+.group-icon-padding {
+    padding: 0 5px 0 5px
+}
+
+button.ui.button.create-folder-button {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+a.sidebar-option {
+    text-decoration: none;
+}
+
+.sidebar.menu svg, div.ui.vertical.left.fixed.menu div.item svg {
+    margin-left: 65px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.user-name {
+    text-align: center;
+}
+
+.sidebar-height {
+    min-height: 100vh;
+}
+
+
+
+@media(min-width: 1025px) {
+    .container-padding {
+        padding-left: 260px;
+    }
+}
+
+@media(min-width: 768px) {
+    .container-margin {
+        margin: 60px 25px 25px 25px;
+    }
+}
+
+.content-height {
+    min-height: 100vh;
+}
+.ui.vertical.my-sidebar {
+    width: 260px;
+}
+
+a.sidebar-option div.item.item-padding-right {
+    padding-right: 4px;
+}
